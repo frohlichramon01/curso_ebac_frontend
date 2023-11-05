@@ -1,0 +1,16 @@
+body {
+    background-color: lightgray;
+}
+
+.centralizado{
+    display: flex;
+    justify-content: center;
+}
+
+.task {
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
