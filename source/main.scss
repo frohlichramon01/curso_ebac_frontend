@@ -1,0 +1,30 @@
+@use './config/colors';
+@use './config/reset';
+@use './sections/header';
+@use './sections/products';
+
+body {
+    background-color: colors.$corFundo;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 56px 0;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
